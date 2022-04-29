@@ -1,4 +1,4 @@
-# ![Markdown Here logo](https://raw.github.com/adam-p/markdown-here/master/src/common/images/icon48.png) Markdown Here
+# ![Markdown Here logo](https://raw.github.com/adam-p/markdown-here/master/src/common/images/icon48.png) Markdown Here, this is a test
 
 [**Visit the website.**](http://markdown-here.com)<br>
 [**Get it for Chrome.**](https://chrome.google.com/webstore/detail/elifhakcjgalahccnjkneoccemfahfoa)<br>
@@ -8,11 +8,11 @@
 [**Get it for Opera.**](https://addons.opera.com/en/extensions/details/markdown-here/)<br>
 [**Discuss it and ask questions in the Google Group.**](https://groups.google.com/forum/?fromgroups#!forum/markdown-here/)<br>
 
-*Markdown Here* is a Google Chrome, Firefox, Safari, Opera, and Thunderbird extension that lets you write email<sup>&dagger;</sup> in Markdown<sup>&Dagger;</sup> and render them before sending. It also supports syntax highlighting (just specify the language in a fenced code block).
+_Markdown Here_ is a Google Chrome, Firefox, Safari, Opera, and Thunderbird extension that lets you write email<sup>&dagger;</sup> in Markdown<sup>&Dagger;</sup> and render them before sending. It also supports syntax highlighting (just specify the language in a fenced code block).
 
 Writing email with code in it is pretty tedious. Writing Markdown with code in it is easy. I found myself writing email in Markdown in the Github in-browser editor, then copying the preview into email. This is a pretty absurd workflow, so I decided create a tool to write and render Markdown right in the email.
 
-To discover what can be done with Markdown in *Markdown Here*, check out the [Markdown Here Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) and the other [wiki pages](https://github.com/adam-p/markdown-here/wiki).
+To discover what can be done with Markdown in _Markdown Here_, check out the [Markdown Here Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) and the other [wiki pages](https://github.com/adam-p/markdown-here/wiki).
 
 <sup>&dagger;: And Google Groups posts, and Blogger posts, and Evernote notes, and Wordpress posts! [See more](#compatibility).</sup><br>
 <sup>&Dagger;: And TeX mathematical formulae!</sup>
@@ -20,6 +20,7 @@ To discover what can be done with Markdown in *Markdown Here*, check out the [Ma
 ![screenshot of conversion](https://raw.github.com/adam-p/markdown-here/master/store-assets/markdown-here-image1.gimp.png)
 
 ### Table of Contents
+
 **[Installation Instructions](#installation-instructions)**<br>
 **[Usage Instructions](#usage-instructions)**<br>
 **[Troubleshooting](#troubleshooting)**<br>
@@ -34,7 +35,7 @@ To discover what can be done with Markdown in *Markdown Here*, check out the [Ma
 
 #### Chrome Web Store
 
-Go to the [Chrome Web Store page for *Markdown Here*](https://chrome.google.com/webstore/detail/elifhakcjgalahccnjkneoccemfahfoa) and install normally.
+Go to the [Chrome Web Store page for _Markdown Here_](https://chrome.google.com/webstore/detail/elifhakcjgalahccnjkneoccemfahfoa) and install normally.
 
 After installing, make sure to reload your webmail or restart Chrome!
 
@@ -44,14 +45,14 @@ After installing, make sure to reload your webmail or restart Chrome!
 2. In Chrome, open the Extensions settings. (Wrench button, Tools, Extensions.)
 3. On the Extensions settings page, click the "Developer Mode" checkbox.
 4. Click the now-visible "Load unpacked extension…" button. Navigate to the directory where you cloned the repo, then the `src` directory under that.
-5. The *Markdown Here* extension should now be visible in your extensions list.
+5. The _Markdown Here_ extension should now be visible in your extensions list.
 6. Reload your webmail page (and maybe application) before trying to convert an email.
 
 ### Firefox and Thunderbird
 
 #### Mozilla Add-ons site
 
-Go to the [Firefox Add-ons page for *Markdown Here*](https://addons.mozilla.org/en-US/firefox/addon/markdown-here/) and install normally.
+Go to the [Firefox Add-ons page for _Markdown Here_](https://addons.mozilla.org/en-US/firefox/addon/markdown-here/) and install normally.
 
 Or go to the "Tools > Add-ons" menu and then search for "Markdown Here".
 
@@ -74,9 +75,9 @@ To get to the Markdown Here preferences, open the Safari preferences and then go
 
 ### Opera
 
-Note that *Markdown Here* only works with Opera versions 16 and higher (i.e., the ones that are based on Chromium).
+Note that _Markdown Here_ only works with Opera versions 16 and higher (i.e., the ones that are based on Chromium).
 
-Go to the [Opera Add-ons store page for *Markdown Here*](https://addons.opera.com/en/extensions/details/markdown-here/) and install normally.
+Go to the [Opera Add-ons store page for _Markdown Here_](https://addons.opera.com/en/extensions/details/markdown-here/) and install normally.
 
 After installing, make sure to reload your webmail or restart Chrome!
 
@@ -84,16 +85,16 @@ After installing, make sure to reload your webmail or restart Chrome!
 
 Install it, and then…
 
-1. In Chrome/Safari/Opera, *make sure* you reload your web mail page before trying to use Markdown Here.
+1. In Chrome/Safari/Opera, _make sure_ you reload your web mail page before trying to use Markdown Here.
 2. In Chrome/Firefox/Safari/Opera, log into your Gmail, Hotmail, or Yahoo account and start a new email. In Thunderbird, start a new message.
 3. Make sure you're using the rich editor.
-   * In Gmail, click the "Rich formatting" link, if it's visible.
-   * In Thunderbird, make sure "Compose messages in HTML format" is enabled in your "Account Settings", "Composition & Addressing" pane.
+   - In Gmail, click the "Rich formatting" link, if it's visible.
+   - In Thunderbird, make sure "Compose messages in HTML format" is enabled in your "Account Settings", "Composition & Addressing" pane.
 4. Compose an email in Markdown. For example:
 
    <pre>
    **Hello** `world`.
-
+   
    ```javascript
    alert('Hello syntax highlighting.');
    ```
@@ -127,54 +128,53 @@ To revert back to Markdown, just put your cursor anywhere in the block of conver
 
 #### Things to know about converting/reverting a selection
 
-* If you select only part of a block of text, only that text will be converted. The converted block will be wrapped in a paragraph element, so the original line will be broken up. You probably don't want to ever do this.
+- If you select only part of a block of text, only that text will be converted. The converted block will be wrapped in a paragraph element, so the original line will be broken up. You probably don't want to ever do this.
 
-* You can select and revert multiple converted blocks at the same time. One upshot of this is that you can select your entire email, click "Markdown Toggle", and all portions of it that you had converted will be reverted.
+- You can select and revert multiple converted blocks at the same time. One upshot of this is that you can select your entire email, click "Markdown Toggle", and all portions of it that you had converted will be reverted.
 
-* If you don't have anything selected when you click "Markdown Toggle", *Markdown Here* will check if there are converted blocks anywhere in the message and revert them. If there no converted blocks are found, it will convert the entire email.
+- If you don't have anything selected when you click "Markdown Toggle", _Markdown Here_ will check if there are converted blocks anywhere in the message and revert them. If there no converted blocks are found, it will convert the entire email.
 
 ### Options
 
-The *Markdown Here* Options page can be accessed via the Chrome, Firefox, Safari, or Thunderbird extensions list. The available options include:
+The _Markdown Here_ Options page can be accessed via the Chrome, Firefox, Safari, or Thunderbird extensions list. The available options include:
 
-* Styling modifications for the rendered Markdown.
-* Syntax highlighting theme selection and modification.
-* TeX math formulae processing enabling and customization.
-* What the hotkey should be.
+- Styling modifications for the rendered Markdown.
+- Syntax highlighting theme selection and modification.
+- TeX math formulae processing enabling and customization.
+- What the hotkey should be.
 
-For Chrome and Firefox, any changes made in the *Markdown Here* Options are automatically synchronized between your other installations of that browser (if you have the sync feature enabled in the browser).
+For Chrome and Firefox, any changes made in the _Markdown Here_ Options are automatically synchronized between your other installations of that browser (if you have the sync feature enabled in the browser).
 
 ![screenshot of options](https://raw.githubusercontent.com/adam-p/markdown-here/master/store-assets/markdown-here-chrome-options-1.gimp.png)
-
 
 ## Troubleshooting
 
 See the [Troubleshooting wiki page](https://github.com/adam-p/markdown-here/wiki/Troubleshooting).
 
-
 ## Compatibility
 
 See the [Compatibility wiki page](https://github.com/adam-p/markdown-here/wiki/Compatibility).
 
-
 ## Notes and Miscellaneous
 
-* *Markdown Here* uses [Github Flavored Markdown](http://github.github.com/github-flavored-markdown/), with the limitation that GFM special links are not supported ([issue #11](https://github.com/adam-p/markdown-here/issues/11)); nor will they be, as MDH is not Github-specific.
+- _Markdown Here_ uses [Github Flavored Markdown](http://github.github.com/github-flavored-markdown/), with the limitation that GFM special links are not supported ([issue #11](https://github.com/adam-p/markdown-here/issues/11)); nor will they be, as MDH is not Github-specific.
 
-* Available languages for syntax highlighting (and the way they should be written in the fenced code block) can be seen on the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+- Available languages for syntax highlighting (and the way they should be written in the fenced code block) can be seen on the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
 
-* Images embedded inline in your Markdown will be retained when you "Markdown Toggle". Gmail allows you to put images inline in your email -- this can be much easier than referencing an external image.
+- Images embedded inline in your Markdown will be retained when you "Markdown Toggle". Gmail allows you to put images inline in your email -- this can be much easier than referencing an external image.
 
-* Email signatures are automatically excluded from conversion. Specifically, anything after the semi-standard `'-- '` (note the trailing space) is left alone.
-  * Note that Hotmail and Yahoo do *not* automatically add the `'-- '` to signatures, so you have to add it yourself.
+- Email signatures are automatically excluded from conversion. Specifically, anything after the semi-standard `'-- '` (note the trailing space) is left alone.
 
-* The "Markdown Toggle" menu item shows up for more element types than it can correctly render. This is intended to help people realize that they're not using a rich editor. Otherwise they just don't see the menu item and don't know why.
+  - Note that Hotmail and Yahoo do _not_ automatically add the `'-- '` to signatures, so you have to add it yourself.
 
-* Styling:
-  * The use of browser-specific styles (-moz-, -webkit-) should be avoided. If used, they may not render correctly for people reading the email in a different browser from the one where the email was sent.
-  * The use of state-dependent styles (like `a:hover`) don't work because they don't match at the time the styles are made explicit. (In email, styles must be explicitly applied to all elements -- stylesheets get stripped.)
+- The "Markdown Toggle" menu item shows up for more element types than it can correctly render. This is intended to help people realize that they're not using a rich editor. Otherwise they just don't see the menu item and don't know why.
 
-* For more tweaky features, visit the [Tips and Tricks](https://github.com/adam-p/markdown-here/wiki/Tips-and-Tricks) section.
+- Styling:
+
+  - The use of browser-specific styles (-moz-, -webkit-) should be avoided. If used, they may not render correctly for people reading the email in a different browser from the one where the email was sent.
+  - The use of state-dependent styles (like `a:hover`) don't work because they don't match at the time the styles are made explicit. (In email, styles must be explicitly applied to all elements -- stylesheets get stripped.)
+
+- For more tweaky features, visit the [Tips and Tricks](https://github.com/adam-p/markdown-here/wiki/Tips-and-Tricks) section.
 
 ## Building the Extension Bundles
 
@@ -182,7 +182,6 @@ See the [Compatibility wiki page](https://github.com/adam-p/markdown-here/wiki/C
 cd utils
 node build.js
 ```
-
 
 ### Chrome and Opera extension
 
@@ -221,11 +220,11 @@ It also takes a fair bit of work to stay up-to-date with the latest changes in a
 
 ## Credits
 
-*Markdown Here* was coded on the shoulders of giants.
+_Markdown Here_ was coded on the shoulders of giants.
 
-* Markdown-to-HTML: [chjj / marked](https://github.com/chjj/marked)
-* Syntax highlighting: [isagalaev / highlight.js](https://github.com/isagalaev/highlight.js)
-* HTML-to-text: [mtrimpe / jsHtmlToText](https://github.com/mtrimpe/jsHtmlToText)
+- Markdown-to-HTML: [chjj / marked](https://github.com/chjj/marked)
+- Syntax highlighting: [isagalaev / highlight.js](https://github.com/isagalaev/highlight.js)
+- HTML-to-text: [mtrimpe / jsHtmlToText](https://github.com/mtrimpe/jsHtmlToText)
 
 ## Feedback
 
