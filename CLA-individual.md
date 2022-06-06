@@ -1,5 +1,5 @@
 ---
-name: "Individual Contributor License Agreement"
+title: "Individual Contributor License Agreement"
 slug: "cla-individual"
 ---
 Markdown Here Individual Contributor License Agreement
