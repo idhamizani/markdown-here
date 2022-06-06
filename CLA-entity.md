@@ -1,5 +1,5 @@
 ---
-name : "Entity Constributor License Agreement"
+title : "Entity Constributor License Agreement"
 slug: "cla-entity"
 ---
 Markdown Here Entity Contributor License Agreement
