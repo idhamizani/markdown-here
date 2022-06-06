@@ -1,3 +1,8 @@
+---
+name : "Contributing"
+slug: "contributing"
+---
+
 # Contributing.md
 
 * Project page: https://github.com/adam-p/markdown-here
