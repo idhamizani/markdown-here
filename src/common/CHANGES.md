@@ -1,3 +1,8 @@
+---
+title: "Change Log"
+slug: "change-log"
+---
+
 Change Log
 ==========
 
