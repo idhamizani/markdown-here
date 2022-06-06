@@ -1,5 +1,5 @@
 ---
-name : "Markdown Here Dokumentation"
+title : "Markdown Here Dokumentation"
 slug: "markdown-here-doku"
 ---
 # ![Markdown Here logo](https://raw.github.com/adam-p/markdown-here/master/src/common/images/icon48.png) Markdown Here, this is a test
