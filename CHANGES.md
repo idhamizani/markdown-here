@@ -1,5 +1,5 @@
 ---
-name : "Changes Index"
+title : "Changes Index"
 slug: "changes-index"
 ---
 
