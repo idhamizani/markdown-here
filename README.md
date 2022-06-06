@@ -1,3 +1,7 @@
+---
+name : "Markdown Here Dokumentation"
+slug: "markdown-here-doku"
+---
 # ![Markdown Here logo](https://raw.github.com/adam-p/markdown-here/master/src/common/images/icon48.png) Markdown Here, this is a test
 
 [**Visit the website.**](http://markdown-here.com)<br>
