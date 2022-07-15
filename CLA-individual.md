@@ -1,6 +1,9 @@
 ---
 title: "Individual Contributor License Agreement"
 slug: "cla-individual"
+mentioning:
+   - portal-app
+   - request-app
 ---
 Markdown Here Individual Contributor License Agreement
 ======================================================
